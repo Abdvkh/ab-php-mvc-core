@@ -6,5 +6,11 @@
             "email": "e-address@bk.ru"
         }
     ],
-    "require": {}
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "abubakr\\php-mvc-core": "."
+        }
+    }
 }
