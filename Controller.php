@@ -1,10 +1,10 @@
 <?php
 
 
-namespace app\core;
+namespace abubakr\phpmvc;
 
 
-use app\core\middlewares\BaseMiddleware;
+use abubakr\phpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {

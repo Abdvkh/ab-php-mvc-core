@@ -1,10 +1,10 @@
 <?php
 
 
-namespace app\core;
+namespace abubakr\phpmvc;
 
-use app\core\db\Database;
-use app\core\db\DbModel;
+use abubakr\phpmvc\db\Database;
+use abubakr\phpmvc\db\DbModel;
 use app\models\User;
 
 class Application

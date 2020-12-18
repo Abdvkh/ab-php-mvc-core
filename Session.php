@@ -1,7 +1,7 @@
 <?php
 
 
-namespace app\core;
+namespace abubakr\phpmvc;
 
 
 class Session
