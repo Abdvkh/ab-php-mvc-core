@@ -1,7 +1,7 @@
 <?php
 
 
-namespace app\core\form;
+namespace abubakr\phpmvc\form;
 
 
 class Form

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace app\core\db;
+namespace abubakr\phpmvc\db;
 
 
-use app\core\Application;
+use abubakr\phpmvc\Application;
 
 class Database
 {
