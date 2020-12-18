@@ -16,9 +16,12 @@ class Database
      */
     public function __construct(array $config)
     {
-        $this->dbname = $config['dbname'] ? $config['dbname'].'.' : '';
+        $config = $config['db'];
+        $this->dbname = $config["dbname"] ? $config['dbname'] . '.' : '';
 
         $dsn = $config['dsn'] ?? '';
+        $dsn .= 'dbname='.$this->dbname;
+
         $user = $config['user'] ?? '';
         $password = $config['password'] ?? '';
         $this->pdo = new \PDO($dsn, $user, $password);
